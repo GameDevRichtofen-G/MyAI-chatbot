@@ -13,16 +13,16 @@ The app receives input from the client, e.g., "Hello there."
 
 2. **Tokenization**
 The input sentence is tokenized into individual words, returning an array like:
-```
+
 ["Hello", "there"]
 ``
 
 3. **Word Encoding**
 The model compares these tokens against a predefined vocabulary from the training dataset.
 - Words in the dataset are converted into a "bag-of-words" representation:
-```
-[1, 0, 0] # 'Hello' matches, others do not
-```
+
+- [1, 0, 0] # 'Hello' matches, others do not
+  
 - Here, "1" indicates a match and "0" means no match.
 
 4. **Prediction**
@@ -55,24 +55,24 @@ Features
 ## How to Run
 
 1. Clone the repository:
-   ```bash
+   bash
    git clone https://github.com/yourusername/MyAI-Chatbot.git
    cd MyAI-Chatbot
-   ```
+   
 
 2. Install dependencies:
-   ```bash
+   bash
    pip install -r requirements.txt
-   ```
+   
 
 3. Train the model (optional, if dataset changes):
-```bash
+bash
 python train.py
-```
+
 
 4. Start the chatbot:
-```bash
+bash
 python chat.py or py chat.py
-```
+
 
 5. Interact with the bot!
