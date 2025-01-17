@@ -56,7 +56,7 @@ Features
 
 1. Clone the repository:
    bash
-   git clone https://github.com/yourusername/MyAI-Chatbot.git
+   git clone https://github.com/GameDevRichtofen-G/MyAI-chatbot.git
    cd MyAI-Chatbot
    
 
