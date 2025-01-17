@@ -59,20 +59,16 @@ Features
    git clone https://github.com/GameDevRichtofen-G/MyAI-chatbot.git
    cd MyAI-Chatbot
    
-
-2. Install dependencies:
-   bash
-   pip install -r requirements.txt
    
 
-3. Train the model (optional, if dataset changes):
+2. Train the model (optional, if dataset changes):
 bash
 python train.py
 
 
-4. Start the chatbot:
+3. Start the chatbot:
 bash
 python chat.py or py chat.py
 
 
-5. Interact with the bot!
+4. Interact with the bot!
