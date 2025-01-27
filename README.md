@@ -1,4 +1,4 @@
-# Chatbot Made Using MyAI
+# Chatbot 
 A light tailed chatbot developed using PyTorch capable of answering simple questions and doing basic arithmetic operations like (+, -, /, *).
 
 ---
